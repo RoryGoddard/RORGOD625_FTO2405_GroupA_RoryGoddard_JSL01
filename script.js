@@ -43,6 +43,6 @@ function petYear(str, date) {
 
 // Check that the name is only comprised of letters
 function petName(str) {
-    return /^[A-Za-z]*$/.test(str);
+    return /^[A-Za-z]+$/.test(str);
 }
 
